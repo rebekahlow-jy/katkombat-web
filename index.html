@@ -5,22 +5,51 @@
 	<meta name="description" content="[KatKombat Description]">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
 	<title>KatKombat</title>
-	<link rel="stylesheet" href="css/main.css"/>
+	<link rel="stylesheet" href="css/style.css"/>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
 	</head>
-	<body>
-		<!-- Intro -->
-		<div class="intro">
-			<h1> INTRO </h1>
+
+	<body data-spy="scroll" data-target="#nav">
+		<header class="intro">
+		  <div class="container">
+			  <div class="row">
+			    <div class="col">
+			      <h1>KatKombat</h1>
+			    </div>
+			  </div>
+		  </div>
+		</header>
+
+		<div class="navigation" id="nav">
+		  <div class="navbar navbar-default navbar-static">
+		    <div class="container">
+		      <a class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+						<span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </a>
+		      <div class="navbar-collapse collapse">
+		        <ul class="nav navbar-nav">
+		          <li><a href="#overview">Overview</a></li>
+		          <li><a href="#kats">Kats</a></li>
+		          <li><a href="#craft">Craft</a></li>
+							<li><a href="#explore">Explore</a></li>
+		        </ul>
+		      </div>
+		    </div>
+		  </div>
 		</div>
-		<!-- Content -->
+
 		<div class="content">
-			<div class="content-story"></div>
-			<div class="content-species"></div>
-			<div class="content-features"></div>
-			<div class="content-visuals"></div>
+			<div><span id="overview"></span>Overview</div>
+			<h3 class="box"><span id="kats"></span>Kats</h3>
+			<h3 class="box"><span id="craft"></span>Craft</h3>
+			<h3 class="box"><span id="explore"></span>Explore</h3>
 		</div>
-		<!-- Social Media Banner -->
-		<div class="social">
-		</div>
+
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+		<script type="text/javascript" src="js/main.js" ></script>
 	</body>
 </html>

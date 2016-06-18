@@ -1,0 +1,36 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  padding-top: 50px;
+}
+
+header {
+	height:600px;
+}
+
+#nav.affix {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 10;
+}
+
+.affix + span {
+  padding-top:50px
+}
+
+h3 {
+	position:relative;
+}
+
+h3 span {
+	position:absolute;
+	top:-50px;
+}
+
+.box {
+	height: 600px;
+	width: 100%;
+}
